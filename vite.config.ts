@@ -14,13 +14,17 @@ export default defineConfig({
         newConfig: true,
       },
     }),
+
     solid({
+      exclude: ["src/fetch.ts"],
       start: true,
       ssr: true,
     }),
+
     fileRoutes({
       types: true,
     }),
+
     i18n(),
   ],
 });
