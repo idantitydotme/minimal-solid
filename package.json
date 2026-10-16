@@ -21,23 +21,23 @@
     "check": "pnpm audit && cf workers types && vp check --fix"
   },
   "dependencies": {
-    "@cloudflare/vite-plugin": "1.63.1",
-    "@rimelight/i18n": "0.1.6",
-    "@rimelight/ui": "0.0.77",
+    "@cloudflare/vite-plugin": "2.0.0-beta.sha-8c6014f9a",
+    "@rimelight/i18n": "0.1.7",
+    "@rimelight/ui": "0.0.79",
     "@solidjs/router": "2.0.0-next.38",
     "@solidjs/web": "2.0.0-rc.14",
-    "cf": "1.0.0-beta.14",
+    "cf": "1.0.0-beta.17",
     "hono": "^4.13.13",
     "solid-js": "2.0.0-rc.14",
     "unocss": "66.11.0",
-    "wrangler": "4.149.0"
+    "wrangler": "4.151.0"
   },
   "devDependencies": {
-    "@rimelight/config": "0.0.35",
-    "@solidjs/vite-plugin": "3.0.0-next.49",
+    "@rimelight/config": "0.0.36",
+    "@solidjs/vite-plugin": "3.0.0-next.50",
     "filesystem-routing": "0.4.0",
     "typescript": "7.0.2",
-    "vite-plus": "1.1.0"
+    "vite-plus": "1.2.0"
   },
-  "packageManager": "pnpm@12.10.1"
+  "packageManager": "pnpm@12.11.2"
 }
