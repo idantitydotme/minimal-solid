@@ -17,11 +17,7 @@ export default defineConfig({
     "*": "vp check --fix",
   },
   plugins: [
-    cloudflare({
-      viteEnvironment: {
-        name: "ssr",
-      },
-    }),
+    cloudflare(),
 
     solid({
       exclude: ["src/fetch.ts"],
