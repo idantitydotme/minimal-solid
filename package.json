@@ -17,7 +17,7 @@
     "dev": "vp dev",
     "build": "vp build",
     "preview": "vp preview",
-    "deploy": "vp build && wrangler deploy",
+    "deploy": "cf deploy",
     "check": "pnpm audit && cf workers types && vp check --fix"
   },
   "dependencies": {
@@ -29,8 +29,7 @@
     "cf": "1.0.0-beta.17",
     "hono": "^4.13.13",
     "solid-js": "2.0.0-rc.14",
-    "unocss": "66.11.0",
-    "wrangler": "4.151.0"
+    "unocss": "66.11.0"
   },
   "devDependencies": {
     "@rimelight/config": "0.0.36",
